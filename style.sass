@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(236, 33%, 92%);
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 47%;
+    .moon {
+        position: absolute;
+        left: 70.2%;
+        top: 20%;
+    }
+    h1 {
+        font-weight: lighter;
+        position: absolute;
+        left: 28%;
+        top: 8.5%;
+        font-size: 3em;
+        font-family: 'Josefin Sans', sans-serif;
+        color: hsl(0, 0%, 98%);
+    }
+    input {
+        position: absolute;
+        text-align: center;
+        left: 28%;
+        top: 50%;
+        width: 596px;
+        height: 42px;
+        border-style: solid;
+        border-width: 0.1px;
+        border-radius: 5px;
+        outline: hsl(235, 19%, 35%);
+        border-color: (236, 9%, 61%);
+        color: hsl(235, 19%, 35%);
+        background-color: hsl(0, 0%, 98%);
+        .circle {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-style: solid;
+            top: 2%;
+            border-width: 1px;
+            border-color: black;
+            background-color: hsl(233, 11%, 84%);
+        }
+    }
+     ::-webkit-input-placeholder {
+        color: hsl(233, 11%, 84%);
+    }
+}
+
+.square {
+    position: absolute;
+    height: 330px;
+    width: 596px;
+    left: 28%;
+    top: 34%;
+    border: 1px;
+    border-style: solid;
+    border-color: hsl(233, 11%, 84%);
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 98%);
+    ul li {
+        list-style: none;
+        cursor: pointer;
+        position: relative;
+        padding: 5px;
+        font-size: 1em;
+        transition: 0.2s;
+        background: hsl(233, 11%, 84%);
+    }
+    li {
+        display: list-item;
+        color: white;
+    }
+}

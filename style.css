@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #e4e5f1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 47%;
+}
+
+header .moon {
+    position: absolute;
+    left: 59.5%;
+    top: 32%;
+}
+
+.mountains {
+    width: 100%;
+    height: 400px;
+}
+
+header h1 {
+    font-weight: lighter;
+    position: absolute;
+    left: 41%;
+    transform: translateX(-41%);
+    top: 25%;
+    font-size: 3em;
+    color: #fafafa;
+}
+
+header input {
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 56%;
+    width: 596px;
+    height: 42px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 5px;
+    outline: #484b6a;
+    border-color: 236, 9%, 61%;
+    color: #484b6a;
+    background-color: #fafafa;
+}
+
+header ::-webkit-input-placeholder {
+    color: #d2d3db;
+}
+
+.add {
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50%;
+    left: 59%;
+    top: 57%;
+    background-image: linear-gradient(to right, rgb(173, 31, 255), rgb(113, 163, 255));
+}
+
+ul li.done {
+    text-decoration: line-through;
+    color: #484b6a;
+}
+
+.close {
+    position: absolute;
+    height: 18px;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #484b6a;
+    color: white;
+}
+
+.square {
+    position: absolute;
+    height: 380px;
+    width: 596px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 34%;
+    border: 1px;
+    border-style: solid;
+    border-color: #d2d3db;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 380px;
+    width: 596px;
+}
+
+li {
+    height: 50px;
+    color: #484b6a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d2d3db;
+}
+
+a {
+    width: 100px;
+    height: 50px;
+    color: seagreen;
+    margin-left: 15px;
+    top: 50px;
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-top: 25px;
+    padding-left: 15px;
+    font-size: 1em;
+    transition: 0.2s;
+}
+
+
+/*# sourceMappingURL=style.css.map */
